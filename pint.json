@@ -1,0 +1,16 @@
+{
+    "preset": "per",
+    "rules": {
+        "simplified_null_return": false,
+        "trailing_comma_in_multiline": true,
+        "declare_strict_types": true
+    },
+    "exclude": [
+        "routes",
+        "config",
+        "lang",
+        "database/migrations",
+        "database/seeders",
+        "tests"
+    ]
+}

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+./vendor/bin/pint
+./vendor/bin/phpstan analyse --ansi --memory-limit=-1
+./vendor/bin/pest
